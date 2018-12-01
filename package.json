@@ -1,0 +1,35 @@
+{
+  "name": "electron-skeleton",
+  "version": "1.0.0",
+  "description": "simple electron app",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "app-release-ci": "build --em.main=main.js --publish=never",
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jabreuar/electron-skeleton.git"
+  },
+  "keywords": [
+    "electron"
+  ],
+  "author": "Jonas Abreu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jabreuar/electron-skeleton/issues"
+  },
+  "homepage": "https://github.com/jabreuar/electron-skeleton#readme",
+  "devDependencies": {
+    "electron": "^1.7.9",
+    "electron-builder": "^19.45.5",
+    "electron-devtools-installer": "^2.2.0"
+  },
+  "dependencies": {
+    "electron-is-dev": "^0.3.0",
+    "electron-log": "^2.2.11",
+    "electron-settings": "^3.1.1",
+    "electron-updater": "^2.18.2"
+  }
+}
