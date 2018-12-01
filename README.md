@@ -1,4 +1,4 @@
-# dssat-cp
+# Electron skeleton template to test jDSSAT functions
 
 Electron application files:
 
